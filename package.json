@@ -1,0 +1,20 @@
+{
+  "name": "redis-from-config",
+  "version": "0.1.0",
+  "description": "Redis packaged to read options using node-config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/launchbadge/node-redis-from-config.git"
+  },
+  "author": "Ryan Leckey <ryan@launchbadge.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/launchbadge/node-redis-from-config/issues"
+  },
+  "homepage": "https://github.com/launchbadge/node-redis-from-config#readme",
+  "peerDependencies": {
+    "redis": "^0.12.1",
+    "then-redis": "^1.3.1"
+  }
+}
