@@ -1,6 +1,6 @@
 {
   "name": "redis-from-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Redis packaged to read options using node-config",
   "main": "index.js",
   "repository": {
