@@ -1,6 +1,11 @@
 // TODO: Should be some way to make this into a lib: `redis-from-config`
-var redis = require("then-redis");
+var redis = require("redis");
+var bluebird = require("bluebird");
 var config = require("config");
+
+// NOTE: Promisify all redis methods
+bluebird.promisifyAll(redis.RedisClient.prototype)
+bluebird.promisifyAll(redis.Multi.prototype)
 
 // Create and configure the redis client
 var client = redis.createClient(
